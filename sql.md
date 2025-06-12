@@ -18,9 +18,11 @@ FROM input_data;
 ```
 #  RANK()
 - Assigns a rank starting from 1 to each row within a partition, with gaps in case of ties. Tied rows get the same rank, and the next rank is skipped accordingly.
+- Rank skips the value for every duplicate value found previously
 
 # DENSE_RANK()
-Similar to RANK(), but without gaps in ranking. Tied rows get the same rank, and the next rank continues with no gaps.
+- Similar to RANK(), but without gaps in ranking. Tied rows get the same rank, and the next rank continues with no gaps.
+- dense Rank will not skip the value for duplicate value found previously
 
 
 Use cases:
