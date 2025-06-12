@@ -33,3 +33,12 @@ Use cases:
 
 - DENSE_RANK() → Ranking without gaps (e.g., assigning medals with ties).
 
+#  LAG
+- access data from another row in your result set without using a self-join.
+- looks at Previous row
+- usecase : Compare current with earlier row
+
+#  Lead
+- access data from another row in your result set without using a self-join.
+- looks at next row
+- usecase : Compare current with next row
