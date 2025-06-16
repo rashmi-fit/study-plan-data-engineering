@@ -12,3 +12,15 @@ Week1
 | file handling (read/write) | 
 | exception handling(exception, finally) |
 | Leetcode problem link: https://github.com/hoangcaobao/LeetCode/tree/main?tab=readme-ov-file
+
+
+# python assignment: 
+- create a csv file having class informations
+- process the file by doing following things
+      - find percentage
+      - Rank them by mark
+      - Rank for each class order them by mark
+      - Rank for each class order them by attendance and by mark
+
+- do by pandas
+- without pandas
